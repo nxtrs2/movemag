@@ -14,7 +14,7 @@ We hope you enjoy reading this anthology as much as we enjoyed creating it.
 
 ## Online Version
 
-You can read the online version of this issue [here](https://example.com/move-magazine-issue-2).
+You can read the online version of this issue [movemag.nxt.rs](https://movemag.nxt.rs/).
 
 Thank you for your support!
 
