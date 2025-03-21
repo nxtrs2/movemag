@@ -58,7 +58,7 @@ const Sidebar: FC<SidebarProps> = ({
 
   const sidebarContent = (
     <>
-      <div className="sticky top-0 z-10 bg-gray-50 p-4 border-b">
+      <div className="sticky top-0 z-10 bg-background p-4 border-b">
         <div className="flex items-center justify-between md:hidden">
           <h2 className="text-lg font-semibold">Filters</h2>
           <Button
@@ -89,7 +89,7 @@ const Sidebar: FC<SidebarProps> = ({
       </div>
 
       <div className="flex-1 overflow-hidden">
-        <ScrollArea className="h-[350px] md:h-[400px] bg-white shadow-inner">
+        <ScrollArea className="h-[350px] md:h-[400px] bg-background shadow-inner">
           <div className="p-4">
             {/* Frontmatter Items */}
             {frontmatterItems.length > 0 && (
@@ -165,7 +165,7 @@ const Sidebar: FC<SidebarProps> = ({
   return (
     <>
       {/* Desktop sidebar */}
-      <div className="hidden md:flex w-64 border-r bg-gray-100 h-[calc(100vh-4rem)] flex-col">
+      <div className="hidden md:flex w-64 border-r bg-background h-[calc(100vh-4rem)] flex-col">
         {sidebarContent}
       </div>
 
