@@ -36,14 +36,19 @@ export default function CreditsPage() {
               <div className="grid gap-4 md:grid-cols-2">
                 <p className="text-muted-foreground mb-3">
                   This digital archive of Move magazine is made possible with
-                  thanks to Asneem for providing the original print copy in
-                  fantastic condition for digitisation. Thanks, man!
+                  thanks to Asneem who provided the original print copy in
+                  fantastic condition for digitisation. <br />
+                  He has no idea how he ended up with it in the first place.
+                  That is a mystery that will remain unsolved. Thanks anyway,
+                  man!
                 </p>
                 <p className="text-muted-foreground">
                   However, the cover was missing from that copy. A scan of the
                   cover was provided by Mohamed Faisal - the then editor of this
-                  issue of Move Magazine - who also wrote the Foreword for this
-                  issue. Many thanks to him for that!
+                  issue of Move Magazine - who went on a long journey and a
+                  mission and &ldquo;dug deep&ldquo; to find it. He also
+                  graciously wrote the Foreword for this issue. Many thanks to
+                  him for that and we hope he found his way back!
                 </p>
               </div>
             </section>
@@ -54,13 +59,17 @@ export default function CreditsPage() {
               <div className="grid gap-4 md:grid-cols-2">
                 <div className="space-y-2">
                   <p className="text-muted-foreground">
-                    Digitisation, Web Development and UI/UX design by Simon (who
-                    also wrote some of the cringe poetry in this issue 😅).{" "}
+                    Digitisation, Web Development and UI/UX design is courtesy
+                    of Simon who also wrote some of the cringiest poetry found
+                    in this issue 😅.
+                    <i className="text-gray-300">
+                      ...read those at your own peril
+                    </i>
                   </p>
                 </div>
                 <div className="space-y-2">
                   <p className="text-muted-foreground">
-                    This project is Open Source and available on{" "}
+                    This is an open source project. The source is available at{" "}
                     <Link
                       className="text-blue-500"
                       href="https://github.com/nxtrs2/movemag"
