@@ -7,8 +7,9 @@ import { Sheet, SheetContent } from "@/components/ui/sheet";
 import AuthorFilter from "./filters/author-filter";
 import ClassroomFilter from "./filters/classroom-filter";
 import type { PoetryItem } from "@/types/magazine";
-import { X, FileText } from "lucide-react";
+import { X, FileText, Info } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 interface SidebarProps {
   poetryItems: PoetryItem[];
@@ -89,8 +90,8 @@ const Sidebar: FC<SidebarProps> = ({
       </div>
 
       <div className="flex-1 overflow-hidden">
-        <ScrollArea className="h-[350px] md:h-[400px] bg-background shadow-inner">
-          <div className="p-4">
+        <ScrollArea className="h-[calc(100vh-350px)] md:h-[calc(100vh-400px)]">
+          <div className="p-4 border">
             {/* Frontmatter Items */}
             {frontmatterItems.length > 0 && (
               <div className="mb-6">
@@ -158,6 +159,17 @@ const Sidebar: FC<SidebarProps> = ({
             </div>
           </div>
         </ScrollArea>
+      </div>
+      {/* Footer with Credits Link */}
+      <div className="p-8 border-t mt-auto">
+        <Link
+          href="/credits"
+          className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+          onClick={onMobileClose}
+        >
+          <Info className="mr-2 h-4 w-4" />
+          Credits
+        </Link>
       </div>
     </>
   );

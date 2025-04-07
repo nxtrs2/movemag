@@ -2,7 +2,7 @@ import type { PoetryItem } from "@/types/magazine";
 
 export const poetryData: PoetryItem[] = [
   {
-    id: 0,
+    id: 1,
     frontmatter: true,
     section: false,
     title: "Cover",
@@ -12,7 +12,37 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/cover.jpg",
   },
   {
-    id: 1,
+    id: 2,
+    frontmatter: true,
+    section: false,
+    title: "Foreword...",
+    content: "",
+    author: "",
+    classroom: "",
+    url: "/mag/foreword1.jpg",
+  },
+  {
+    id: 3,
+    frontmatter: true,
+    section: false,
+    title: "Foreword..",
+    content: "",
+    author: "",
+    classroom: "",
+    url: "/mag/foreword2.jpg",
+  },
+  {
+    id: 4,
+    frontmatter: true,
+    section: false,
+    title: "Foreword.",
+    content: "",
+    author: "",
+    classroom: "",
+    url: "/mag/foreword3.jpg",
+  },
+  {
+    id: 5,
     frontmatter: true,
     section: false,
     title: "Move Board",
@@ -22,7 +52,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/moveboard.jpg",
   },
   {
-    id: 2,
+    id: 6,
     frontmatter: true,
     section: false,
     title: "Editorial",
@@ -32,7 +62,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/editorial.jpg",
   },
   {
-    id: 3,
+    id: 7,
     frontmatter: true,
     section: false,
     title: "Principal's Message",
@@ -43,7 +73,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/principalsmessage.jpg",
   },
   {
-    id: 4,
+    id: 8,
     frontmatter: true,
     section: false,
     title: "Poetry (Shakespear)",
@@ -53,7 +83,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/shakespear.jpg",
   },
   {
-    id: 5,
+    id: 9,
     frontmatter: true,
     section: false,
     title: "Contents",
@@ -63,7 +93,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/contents1.jpg",
   },
   {
-    id: 6,
+    id: 10,
     frontmatter: true,
     section: false,
     title: "Contents (contd.)",
@@ -73,7 +103,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/contents2.jpg",
   },
   {
-    id: 7,
+    id: 11,
     frontmatter: false,
     section: true,
     title: "NATURE",
@@ -83,7 +113,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/art_nature.jpg",
   },
   {
-    id: 8,
+    id: 12,
     frontmatter: false,
     section: false,
     pageNumber: 1,
@@ -94,7 +124,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page1.jpg",
   },
   {
-    id: 9,
+    id: 13,
     frontmatter: false,
     section: false,
     pageNumber: 2,
@@ -105,7 +135,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page2.jpg",
   },
   {
-    id: 10,
+    id: 14,
     frontmatter: false,
     section: false,
     pageNumber: 3,
@@ -116,7 +146,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page3.jpg",
   },
   {
-    id: 11,
+    id: 15,
     frontmatter: false,
     section: false,
     pageNumber: 4,
@@ -127,7 +157,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page4.jpg",
   },
   {
-    id: 12,
+    id: 16,
     frontmatter: false,
     section: false,
     pageNumber: 5,
@@ -138,7 +168,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page5.jpg",
   },
   {
-    id: 13,
+    id: 17,
     frontmatter: false,
     section: true,
     pageNumber: 0,
@@ -149,7 +179,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/art_mylove.jpg",
   },
   {
-    id: 14,
+    id: 18,
     frontmatter: false,
     section: false,
     pageNumber: 7,
@@ -160,7 +190,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page7.jpg",
   },
   {
-    id: 15,
+    id: 19,
     frontmatter: false,
     section: false,
     pageNumber: 8,
@@ -171,7 +201,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page8.jpg",
   },
   {
-    id: 16,
+    id: 20,
     frontmatter: false,
     section: false,
     pageNumber: 9,
@@ -182,7 +212,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page9.jpg",
   },
   {
-    id: 17,
+    id: 21,
     frontmatter: false,
     section: false,
     pageNumber: 10,
@@ -193,7 +223,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page10.jpg",
   },
   {
-    id: 18,
+    id: 22,
     frontmatter: false,
     section: false,
     pageNumber: 11,
@@ -204,7 +234,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page11.jpg",
   },
   {
-    id: 19,
+    id: 23,
     frontmatter: false,
     section: false,
     pageNumber: 12,
@@ -215,7 +245,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page12.jpg",
   },
   {
-    id: 20,
+    id: 24,
     frontmatter: false,
     section: false,
     pageNumber: 12,
@@ -226,7 +256,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page12.jpg",
   },
   {
-    id: 21,
+    id: 25,
     frontmatter: false,
     section: false,
     pageNumber: 13,
@@ -237,7 +267,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page13.jpg",
   },
   {
-    id: 22,
+    id: 26,
     frontmatter: false,
     section: false,
     pageNumber: 14,
@@ -248,7 +278,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page14.jpg",
   },
   {
-    id: 23,
+    id: 27,
     frontmatter: false,
     section: false,
     pageNumber: 15,
@@ -259,7 +289,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page15.jpg",
   },
   {
-    id: 24,
+    id: 28,
     frontmatter: false,
     section: false,
     pageNumber: 16,
@@ -270,7 +300,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page16.jpg",
   },
   {
-    id: 25,
+    id: 29,
     frontmatter: false,
     section: false,
     pageNumber: 16,
@@ -281,7 +311,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page16.jpg",
   },
   {
-    id: 26,
+    id: 30,
     frontmatter: false,
     section: false,
     pageNumber: 17,
@@ -292,7 +322,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page17.jpg",
   },
   {
-    id: 27,
+    id: 31,
     frontmatter: false,
     section: false,
     pageNumber: 18,
@@ -303,7 +333,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page18.jpg",
   },
   {
-    id: 28,
+    id: 32,
     frontmatter: false,
     section: false,
     pageNumber: 19,
@@ -314,7 +344,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page19.jpg",
   },
   {
-    id: 29,
+    id: 33,
     frontmatter: false,
     section: true,
     title: "Our World",
@@ -324,7 +354,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/art_ourworld.jpg",
   },
   {
-    id: 30,
+    id: 34,
     frontmatter: false,
     section: false,
     pageNumber: 20,
@@ -335,7 +365,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page20.jpg",
   },
   {
-    id: 31,
+    id: 35,
     frontmatter: false,
     section: false,
     pageNumber: 21,
@@ -346,7 +376,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page21.jpg",
   },
   {
-    id: 32,
+    id: 36,
     frontmatter: false,
     section: false,
     pageNumber: 22,
@@ -357,7 +387,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page22.jpg",
   },
   {
-    id: 33,
+    id: 37,
     frontmatter: false,
     section: false,
     pageNumber: 23,
@@ -368,7 +398,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page23.jpg",
   },
   {
-    id: 34,
+    id: 38,
     frontmatter: false,
     section: false,
     pageNumber: 24,
@@ -379,7 +409,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page24.jpg",
   },
   {
-    id: 35,
+    id: 39,
     frontmatter: false,
     section: false,
     pageNumber: 25,
@@ -390,7 +420,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page25.jpg",
   },
   {
-    id: 36,
+    id: 40,
     frontmatter: false,
     section: false,
     pageNumber: 26,
@@ -401,7 +431,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page26.jpg",
   },
   {
-    id: 37,
+    id: 41,
     frontmatter: false,
     section: false,
     pageNumber: 27,
@@ -412,7 +442,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page27.jpg",
   },
   {
-    id: 38,
+    id: 42,
     frontmatter: false,
     section: false,
     pageNumber: 28,
@@ -423,7 +453,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page28.jpg",
   },
   {
-    id: 39,
+    id: 43,
     frontmatter: false,
     section: true,
     title: "I Feel",
@@ -433,7 +463,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/art_ifeel.jpg",
   },
   {
-    id: 40,
+    id: 44,
     frontmatter: false,
     section: false,
     pageNumber: 30,
@@ -444,7 +474,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page30.jpg",
   },
   {
-    id: 41,
+    id: 45,
     frontmatter: false,
     section: false,
     pageNumber: 31,
@@ -455,7 +485,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page31.jpg",
   },
   {
-    id: 42,
+    id: 46,
     frontmatter: false,
     section: false,
     pageNumber: 31,
@@ -466,7 +496,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page31.jpg",
   },
   {
-    id: 43,
+    id: 47,
     frontmatter: false,
     section: false,
     pageNumber: 33,
@@ -477,7 +507,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page33.jpg",
   },
   {
-    id: 44,
+    id: 48,
     frontmatter: false,
     section: false,
     pageNumber: 34,
@@ -488,7 +518,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page34.jpg",
   },
   {
-    id: 45,
+    id: 49,
     frontmatter: false,
     section: false,
     pageNumber: 35,
@@ -499,7 +529,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page35.jpg",
   },
   {
-    id: 46,
+    id: 50,
     frontmatter: false,
     section: false,
     pageNumber: 36,
@@ -510,7 +540,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page36.jpg",
   },
   {
-    id: 47,
+    id: 51,
     frontmatter: false,
     section: true,
     title: "Others",
@@ -520,7 +550,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/art_others.jpg",
   },
   {
-    id: 48,
+    id: 52,
     frontmatter: false,
     section: false,
     pageNumber: 37,
@@ -531,7 +561,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page37.jpg",
   },
   {
-    id: 49,
+    id: 53,
     frontmatter: false,
     section: false,
     pageNumber: 37,
@@ -542,7 +572,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page37.jpg",
   },
   {
-    id: 50,
+    id: 54,
     frontmatter: false,
     section: false,
     pageNumber: 38,
@@ -553,7 +583,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page38.jpg",
   },
   {
-    id: 51,
+    id: 55,
     frontmatter: false,
     section: false,
     pageNumber: 39,
@@ -564,7 +594,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page39.jpg",
   },
   {
-    id: 52,
+    id: 56,
     frontmatter: false,
     section: false,
     pageNumber: 40,
@@ -575,7 +605,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page40.jpg",
   },
   {
-    id: 53,
+    id: 57,
     frontmatter: false,
     section: false,
     pageNumber: 41,
@@ -586,7 +616,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page41.jpg",
   },
   {
-    id: 54,
+    id: 58,
     frontmatter: false,
     section: false,
     pageNumber: 41,
@@ -597,7 +627,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page41.jpg",
   },
   {
-    id: 55,
+    id: 59,
     frontmatter: false,
     section: false,
     pageNumber: 42,
@@ -608,7 +638,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page42.jpg",
   },
   {
-    id: 56,
+    id: 60,
     frontmatter: false,
     section: false,
     pageNumber: 42,
@@ -619,7 +649,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page42.jpg",
   },
   {
-    id: 57,
+    id: 61,
     frontmatter: false,
     section: false,
     pageNumber: 43,
@@ -630,7 +660,7 @@ export const poetryData: PoetryItem[] = [
     url: "/mag/page43.jpg",
   },
   {
-    id: 58,
+    id: 62,
     frontmatter: false,
     section: true,
     title: "Compliments",
