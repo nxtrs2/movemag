@@ -2,6 +2,16 @@ import type { PoetryItem } from "@/types/magazine";
 
 export const poetryData: PoetryItem[] = [
   {
+    id: 0,
+    frontmatter: true,
+    section: false,
+    title: "Cover",
+    content: "",
+    author: "",
+    classroom: "",
+    url: "/mag/cover.jpg",
+  },
+  {
     id: 1,
     frontmatter: true,
     section: false,
